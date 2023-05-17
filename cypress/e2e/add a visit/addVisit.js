@@ -5,7 +5,7 @@ Given("User is located at the home page", () => {
     cy.visit('/')
 })
 
-And("The user clicks the find owners button in the nav bar", () => {
+When("The user clicks the find owners button in the nav bar", () => {
     cy.contains('Find owners').click()
 })
 
